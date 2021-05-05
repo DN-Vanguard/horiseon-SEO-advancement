@@ -11,6 +11,7 @@ body {
 }
 
 header {
+    /* From line 13-46, you're in the header. You can see what I am styling and how I want it to look */
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -22,7 +23,7 @@ header h1 {
     font-size: 48px;
 }
 
-nav {
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -39,7 +40,7 @@ header li {
     margin-left: 25px;
 }
 
-a {
+header a {
     color: #ffffff;
     text-decoration: none;
 }
@@ -49,7 +50,7 @@ p {
 }
 
 figure {
-    /* changed from class "hero" into element "figure" */
+    /* This is the large background image you see when opening the website. */
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -59,15 +60,13 @@ figure {
 }
 
 main {
-    /* changed from class "content" into element "main" */
+    /* From line 62-85, you're styling the "meat" of the webpage as mentioned in the comments from the html file. */
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
 main section {
-    /* consolidated original classes "search-engine-optimization, online-reputation-management, social-media-marketing" 
-    into element "main section" */
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -77,20 +76,16 @@ main section {
 }
 
 main section img {
-    /* consolidated original classes "search-engine-optimization, online-reputation-management, social-media-marketing img's" 
-    into element "main section img" */
     max-height: 200px;
 }
 
 main section h2 {
-    /* consolidated original classes "search-engine-optimization, online-reputation-management, social-media-marketing h2's" 
-    into element "main section h2" */
     margin-bottom: 20px;
     font-size: 36px;
 }
 
 aside {
-    /* changed from class "benefits" into element "aside" */
+    /* From line 87-113, you're currently styling what is on the side of the webpage. */
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -102,28 +97,23 @@ aside {
 }
 
 aside section {
-    /* consolidated original classes "benefit: lead, brand, & cost" 
-    into element called "aside section" */
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 aside section h3 {
-    /* consolidated original classes "benefit: lead, brand, & cost h3's" 
-    into element called "aside section h3" */
     margin-bottom: 10px;
     text-align: center;
 }
 
 aside section img {
-    /* consolidated original classes "benefit: lead, brand, & cost img's" 
-    into element called "aside section img" */
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
 footer {
+    /* From line 115-125, you're styling the footer, which is at the bottom of the page. */
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -136,14 +126,18 @@ footer h2 {
 
 /* class selectors  */
 .seo {
+    /* In the word Horiseon in the h1 tag, you can see that the letters SEO are slightly different from the rest. */
     color: #d9dcd6;
 }
 .float-left {
+    /* This class is used for the imgs in SEO and SMM to make them stay on the left side of the webpage. */
     float: left;
     margin-right: 25px;
 }
 
 .float-right {
+    /* This class is used for the img in ORM to make it stay on the right side of the webpage to offset all the pictures.
+    I chose to use class selector instead of an id selector because I believe that long term, the class selector best fitted the situation. */
     float: right;
     margin-left: 25px;
 }
