@@ -1,5 +1,5 @@
 # horiseon-SEO-advancement
-Homework01
+<h2>**Homework_01**</h2>
 
 ## What was your motivation?
 - I really wanted to test myself in making the website more accessible because I know that in the real world, 
@@ -23,9 +23,12 @@ then that would mean that cleaning up the html and css files was a huge success.
 - What I genuinely enjoyed learning was simplifying the styling in the css. 
 - Although it was a tedious task, looking at the files was so much easier, and definitely made it more accessible.
 
-## Usage
+## Link to URL
+https://dn-vanguard.github.io/horiseon-SEO-advancement/
 
+## Screenshot
 
+![Horiseon Webpage](./assets/images/horiseon-webpage.png)
 
 
 
